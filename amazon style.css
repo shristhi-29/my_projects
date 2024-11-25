@@ -1,0 +1,278 @@
+  *{
+    padding:0;
+    margin:0;
+    font-family: arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    width:1370px;
+    background-color: #131921;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+/* .panel{
+    height:40px;
+    width:1370px;
+    background-color:#232f3e;
+} */
+.nav_logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    height:50px;
+    width:100%;
+    background-image: url("logo_image.png");
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* box2 */
+.add_icon{
+    display:flex;
+    align-items: center;
+}
+
+.address1{
+    color:#cccccc;
+    font-size: 12px;
+margin-left: 13px;
+}
+
+.address2{
+    color:#ffffff;
+    font-size: 14px;
+    margin-left: 3px;
+}
+/* box3 */
+
+.nav_search{
+    height:40px;
+    width:620px;
+    display:flex;
+    border-radius:4px;
+}
+.nav_search:hover{
+    border: 4px solid #febd68;
+}
+
+.dropdownBox{
+    width:60px;
+    background-color:#f3f3f3;
+    text-align: center;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border:none;
+
+}
+.input_search{
+    width:600px;
+    font-size:14px;
+    border:none;
+}
+
+.search_icon{
+    width: 45px;
+    background-color: rgb(251, 199, 102);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size:1.4em;
+    color:#131921
+}
+/* box 4 */
+.signIn1{
+    font-size: 12px;
+
+}
+.signIn2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cart-icon{
+    color:white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cart0{
+    color:#febd68;
+}
+.cart-icon i{
+    font-size: 20px;
+}
+
+/* panel */
+.panel{
+        height:40px;
+        background-color:#232f3e;
+        display:flex;
+        color:white;
+        align-items: center;
+        justify-content: space-evenly;
+}
+
+.panel-items p{
+display:inline;
+margin-left: 10px;
+}
+
+.panel-items{
+    width:70%;
+}
+
+.panel-deals{
+    font-size:14px;
+    font-weight: 700;
+}
+/* content Area */
+.content-Area{
+    height:370px;
+    animation: backgroundAnimate 10s ease-in-out 0s infinite alternate ;
+    background-size:cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+@keyframes backgroundAnimate {
+    0%{
+        background-image: url("background_image1.jpg");
+        animation-duration: 10s;
+    }
+    50%{
+        background-image: url("background_image3.jpg");
+    }
+    100%{
+        background-image: url("background_image4.jpg");
+    }
+    }
+.content-items{
+    height:40px;
+    background-color: white;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width:80%;
+    margin-bottom: 30px;
+}
+
+.content-items a {
+    color:#007185;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height:400px;
+    width: 23%;
+background-color:white;
+padding:20px 0px 15px;
+margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size:cover;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content p{
+    color:#007185;
+}
+
+.bigbox{
+    height:340px;
+    width:97%;
+}
+.box-img1{
+    height:300px;
+    background-size:25%,  25% , 25%;
+    background-position: right , left,  center top;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* footer */
+.footer{
+margin-top:15px;
+}
+
+.footer-panel{
+    height:50px;
+    background-color:#37475a;
+color:white;
+display:flex;
+justify-content: center;
+align-items:center;
+font-size: 12px;
+}
+.footer_panel2{
+    background-color:#232f3e ;
+    height:300px;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display:block;
+    font-size: 12px;
+    margin-top: 10px;
+    color:#dddddd;
+}
+.footer_panel3{
+    background-color:#232f3e ;
+    color:white; 
+    border-top: 0.5px solid white;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height:50px;
+    width:100px;
+    background-image: url("logo_image.png");
+    background-size: cover;
+}
+
+.footer_panel4{
+    background-color: #131921;
+    height:100px;
+    color:white;
+    font-size: 11px;
+    text-align: center;
+    padding:10px;
+}
+
+.items a{
+padding:10px;
+}
+.copyright{
+    padding:5PX;
+}
